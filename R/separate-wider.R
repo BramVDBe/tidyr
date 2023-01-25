@@ -319,7 +319,7 @@ str_separate_wider_position <- function(x,
     too_many = too_many,
     advice_short = c(
       i = 'Use `too_few = "debug"` to diagnose the problem.',
-      i = 'Use `too_few = "start"` to silence this message.'
+      i = 'Use `too_few = "align_start"/"align_end` to silence this message.'
     ),
     advice_long = c(
       i = 'Use `too_many = "debug"` to diagnose the problem.',
